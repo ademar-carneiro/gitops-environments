@@ -6,7 +6,7 @@ provider "google" {
 
 terraform {
   backend "gcs" {
-    bucket  = "tf-state-gitops-terraform"
+    bucket  = "tf-state-gitops-terraform-1"
     prefix  = "gitops-terraform"
   }
 }
